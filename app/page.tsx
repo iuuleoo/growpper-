@@ -1,6 +1,8 @@
 import Header from "@/components/header";
 import LeadForm from "@/components/Form";
-import Features from "@/components/Features"; // ⬅️ adicionando aqui
+import Features from "@/components/Features";
+import Usage from "@/components/Usage";
+import Faq from "@/components/Faq";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Header />
       <LeadForm />
       <Features />
+      <Usage />
+      <Faq />
     </>
   );
 }

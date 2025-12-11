@@ -47,7 +47,7 @@ export default function Form() {
             </div>
 
             <div className="flex items-center gap-3 bg-white border border-neutral-200 rounded-xl px-5 py-4 shadow-sm">
-              <AlertTriangle size={22} className="text-yellow-600" />
+              <AlertTriangle size={22} className="text-neutral-700" />
               <p className="text-neutral-700 text-sm">
                 <span className="font-semibold">Atenção:</span> Devido à alta demanda, limitamos 12 análises gratuitas por semana.
               </p>
