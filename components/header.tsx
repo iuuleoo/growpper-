@@ -10,7 +10,6 @@ export default function Header() {
     <header className="w-full backdrop-blur-md border-b border-black/[0.07]">
       <nav className="max-w-2xl mx-auto flex items-center justify-between px-8 pt-14 pb-4">
 
-        {/* LOGO estilo Apple */}
         <h1 className="text-[16px] font-medium tracking-[-0.2px] text-black">
           Growper
         </h1>
@@ -43,7 +42,6 @@ export default function Header() {
           </li>
         </ul>
 
-        {/* BOTÃO MOBILE */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-neutral-700 active:scale-95 transition-transform"

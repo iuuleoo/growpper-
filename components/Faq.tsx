@@ -71,7 +71,6 @@ export default function Faq() {
   return (
     <section id="faq" className="w-full max-w-3xl mx-auto py-14 px-6">
       
-      {/* TÍTULO CLEAN E SEM ANIMAÇÃO */}
       <h2 className="text-2xl font-semibold text-center text-neutral-900 tracking-tight mb-14">
         Perguntas Frequentes
       </h2>
@@ -86,7 +85,7 @@ export default function Faq() {
               onClick={() => toggleFAQ(index)}
               className="w-full flex items-center justify-between p-4 text-left"
             >
-              <span className="text-lg font-medium">{faq.question}</span>
+              <span className="text-sm font-medium">{faq.question}</span>
               <ChevronDown
                 className={`transition-transform duration-300 ${
                   openIndex === index ? "rotate-180" : ""

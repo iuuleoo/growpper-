@@ -6,7 +6,7 @@ export default function Usage() {
   return (
     <section
       id="como-funciona"
-      className="w-full py-20 px-6 bg-white"
+      className="w-full py-20 px-6 bg-gray-50"
     >
       <div className="max-w-3xl mx-auto text-center">
 
